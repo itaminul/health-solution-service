@@ -19,23 +19,33 @@ export default function Home() {
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 Chose Your{" "}
-                <span className="bg-green-600 px-2 text-white">
-                  {" "}
-                  Technolgy{" "}
-                </span>
+                <span className="bg-green-600 px-2 text-white"> Service </span>
               </h1>
-              <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
-                Select your techonology and learn more
-              </p>
               <u className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
                 <div className="space-y-2">
                   <li className="flex gap-1.5 items-center text-left">
-                    <Check className="h-5 w-5 shrink-0 text-green-600" /> Latest
-                    Techonology
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />{" "}
+                    Emergency Service
                   </li>
                   <li className="flex gap-1.5 items-center text-left">
                     <Check className="h-5 w-5 shrink-0 text-green-600" />
-                    Full Tutorial for better understand
+                    Ambulance Service 24/7
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />
+                    Regular Health Checkup
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />
+                    Online Doctor Appoinment
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />
+                    Home Health Service
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />
+                    Latest Treatments
                   </li>
                 </div>
               </u>
@@ -90,11 +100,7 @@ export default function Home() {
           </div>
           <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
             <div className="relative md:max-w-xl">
-              <img
-                src="line.png"
-                className="absolute w-20 -left-6 -bottom-6 select-none"
-              />
-              <Phone className="w-64" imgSrc="/nestjs3.png" />
+              <img className="flex" width="1500" src="/image/elderly.png" />
             </div>
 
             <div className="w-64 ml-16">sdfasfaf</div>
@@ -212,7 +218,7 @@ export default function Home() {
               Upload your own{" "}
               <span className="relative px-2 bg-green-600 text-white">
                 {" "}
-                course
+                Service
               </span>
             </div>
           </div>
@@ -240,27 +246,27 @@ export default function Home() {
           <ul className="mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit">
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5 " />
-              High quality course
+              High quality Service
             </li>
 
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5 " />
-              High quality course
+              High quality Service
             </li>
 
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5 " />
-              High quality course
+              High quality Service
             </li>
 
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5 " />
-              High quality course
+              High quality Service
             </li>
 
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5 " />
-              High quality course
+              High quality Service
             </li>
             <div className="flex justify-center">
               <Link
