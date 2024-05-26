@@ -7,13 +7,13 @@ import { cn } from "@/lib/utils";
 import Phone from "./Phone";
 
 const PHONES = [
-  "/technology/express.png",
-  "/technology/nestjs.svg",
-  "/technology/nodejs.png",
-  "/technology/es6-home.png",
-  "/technology/express.png",
-  "/technology/express.png",
-  "/technology/express.png",
+  "/image/brain.png",
+  "/image/certificate.png",
+  "/image/doctor.png",
+  "/image/kidneys.png",
+  "/image/kidneys.png",
+  "/image/kidneys.png",
+  "/image/kidneys.png",
 ];
 
 function splitArray<T>(array: Array<T>, numParts: number) {
@@ -104,7 +104,7 @@ function Review({ imgSrc, className, ...props }: ReviewProps) {
       style={{ animationDelay }}
       {...props}
     >
-      <Phone imgSrc={imgSrc} />
+      <img src={imgSrc} />
     </div>
   );
 }
